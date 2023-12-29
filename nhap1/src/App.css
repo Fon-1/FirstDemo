@@ -1,0 +1,138 @@
+
+.wrapper {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 300px;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 18px;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	color: #4a4a4a;
+	letter-spacing: 0.5px;
+}
+
+::placeholder {
+	color: #9a9a9a;
+	font-weight: 400;
+}
+
+span {
+	position: absolute;
+	right: 15px;
+	transform: translate(0, -50%);
+	top: 50%;
+	cursor: pointer;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins";
+	color: #fff;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-height: 100vh;
+	background: #a70101;
+}
+
+.container {
+	height: 350px;
+	width: 450px;
+	border: 3px solid #fff;
+	box-shadow: 0 0 10px #fff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+
+.container:hover {
+	border: 1px solid var(--primary-100, #fff);
+	
+}
+
+.input-box {
+	width: 340px;
+	margin: 30px 0;
+	position: relative;
+}
+/*submit btn*/
+.input-box input {
+	width: 100%;
+	max-height: 45px !important;
+	background-color: #fff;
+	outline: none;
+	padding: 035px 0 10px;
+	font-size: 17px;
+	color: #010101;
+	border-radius: 6px;
+border: 1px solid var(--primary-100, #813999);
+background: var(--White, #FFF);
+backdrop-filter: blur(2.5px);
+}
+
+.input-box input:focus,
+.input-box input:valid {
+	background: transparent;
+	border:none;
+}
+
+
+.input-box label {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+	color: #B3B3B3;
+	transition: .1s ease;
+}
+
+.input-box input:focus+label,
+.input-box input:valid+label {
+	top: -2px;
+	background: none;
+	color: #B3B3B3;
+	padding: 0 5px;
+	z-index: 11111;
+}
+.input-box i{
+	position: absolute;
+	right: 8px;
+	top: 16px;
+	font-size: 1.4em;
+	border: none;
+	cursor: pointer;
+	transition: .0s;
+	}
+
+	.input-box input [type="button"]{
+		background: transparent;
+		background-color: #Ffc0cb;
+		color: #Ffc0cb;
+		font-size: 18px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		transition: .2s;
+		}
+		.container:hover input [type="button"]{
+		
+		color: #222;
+	
+		}

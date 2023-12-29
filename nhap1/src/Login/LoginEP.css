@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.login-conten-title-conten{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 24px;
+}
+.homeBox {
+
+  text-align: center
+}
+.login-input-frogot{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+.logo {
+  width: 123px;
+  height: 123px;
+  padding: 3.849px 2.678px 3.597px 2.84px;
+}
+
+.login-title-conten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.login-title {
+  /* align-self: stretch; */
+  /* color: var(--Text-Heading, #1A1A1A); */
+  /* text-align: center; */
+  /* font-feature-settings: 'clig' off, 'liga' off; */
+  font-family: Poppins;
+  font-size: 28px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: 44px;
+}
+.login-conten {
+  /* align-self: stretch; */
+  /* color: var(--Text-Body, #222); */
+  /* text-align: center; */
+  /* font-feature-settings: 'clig' off, 'liga' off; */
+  font-family: Montserrat;
+  font-size: 14px;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  line-height: 20px;
+}
+.input-from{
+  height: auto;
+  /* display: flex; */
+  /* padding: 6px 8px; */
+  /* align-items: center; */
+  /* gap: 24px; */
+  /* align-self: stretch; */
+  border-radius: 6px;
+  border: 1px solid var(--primary-100, #813999);
+  /* background: var(--White, #FFF); */
+  -webkit-backdrop-filter: blur(2.5px);
+  /* backdrop-filter: blur(2.5px); */
+  width: -57px;
+}
+.forget-password{
+  color: var(--orange-100, #EF8100);
+  /* font-feature-settings: 'clig' off, 'liga' off; */
+  /* font-family: Montserrat; */
+  /* font-size: 14px; */
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  text-align: end;
+  /* line-height: 20px; */
+  margin: 10px;
+  /* color: blue; */
+  cursor: pointer;
+}
+.login-action-container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 52px;
+}
